@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+     
+ <TableLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="wrap_content"
+     android:layout_height="fill_parent"    
+     android:stretchColumns="field"
+     android:layout_gravity="center_horizontal">
+     
+     <TableRow>
+          <TextView
+	        android:id="@+id/numGel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_vertical"
+	        android:text="@string/NumGels" />
+	
+        <EditText
+            android:id="@+id/editNumGels"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text=""
+            android:inputType="number" >
+	    </EditText>
+               
+     </TableRow>
+     
+     <TableRow>
+         <TextView
+            android:id="@+id/perGel_Label"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/PercentGel" />   
+	    
+	    <EditText
+	        android:id="@+id/editPercentGel"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+			android:singleLine="true"
+			android:text=""
+	        android:inputType="number" >
+	    </EditText>
+         
+     </TableRow>
+     
+     <TableRow>
+         <TextView
+	        android:id="@+id/perAcry_Label"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/PercentAcry" />   
+	    
+	    <Spinner  
+	        android:id="@+id/SpinnerFeedbackType"  
+	        android:layout_height="wrap_content" 
+	        android:prompt="@string/PercentAcry"  
+	        android:layout_width="fill_parent"  
+	        android:entries="@array/PercentAcryArray">  
+	    </Spinner>  
+        
+     </TableRow>    
+     
+     <TableRow>	                    
+    	<Button  
+        	android:id="@+id/ButtonClear"  
+        	android:layout_height="wrap_content"  
+        	android:text="@string/clear"  
+        	android:onClick="clearValues"  
+        	android:layout_width="wrap_content">  
+    	</Button>
+    	
+    	<Button  
+        	android:id="@+id/ButtonSubmit"  
+        	android:layout_height="wrap_content"  
+        	android:text="@string/submit"  
+        	android:onClick="sendValues" 
+        	android:layout_width="wrap_content">      	
+    	</Button> 
+               
+     </TableRow>
+ </TableLayout> 
+	   
+    		    

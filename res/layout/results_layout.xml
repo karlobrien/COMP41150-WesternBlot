@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+ <TableLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
+        
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+    
+    <TableRow
+         android:background="@drawable/table_border_top">
+        <TextView
+            android:layout_height="fill_parent"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="@string/Ingredients"
+            android:padding="3dip"/>
+        <TextView
+            android:text="@string/Gel"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+     
+    <TableRow
+        android:background="@drawable/table_border_body">
+        <TextView
+            android:text="ddH2O"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/SepG_ddH20"
+            android:text="@string/SepG_ddH20"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow
+        android:background="@drawable/table_border_body">
+        <TextView
+            android:text="Acrylamide"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/SepG_Acry"
+            android:text="@string/SepG_Acry"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+    
+    <TableRow
+        android:background="@drawable/table_border_body">
+        <TextView
+            android:text="1.5M Tris pH 8.8"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/SepG_Tris_1"
+            android:text="@string/SepG_Tris_1"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow
+        android:background="@drawable/table_border_body">
+        <TextView
+            android:text="0.5M Tris pH 6.8"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/SepG_Tris_2"
+            android:text="@string/SepG_Tris_2"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow
+        android:background="@drawable/table_border_body">
+        <TextView
+            android:text="10% SDS"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/SepG_SDS"
+            android:text="@string/SepG_SDS"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow
+        android:background="@drawable/table_border_body">
+        <TextView
+            android:text="10% APS"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/SepG_APS"
+            android:text="@string/SepG_APS"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow
+        android:background="@drawable/table_border_body">
+        <TextView
+            android:text="TEMED"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/SepG_TEMED"
+            android:text="@string/SepG_TEMED"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow
+        android:background="@drawable/table_border_body">
+        <TextView
+            android:text="Total Volume"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/SepG_TotalVolume"
+            android:text="@string/SepG_TotalVolume"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+        
+    <TableRow
+        android:background="@drawable/table_border_body">
+        <TextView
+            android:text="@string/Ingredients"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/StackGel"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>    
+    
+    <TableRow
+        android:background="@drawable/table_border_body">
+        <TextView
+            android:text="ddH20"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/Stack_ddH20"
+            android:text="0"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow
+        android:background="@drawable/table_border_body">
+        <TextView
+            android:text="Acrylamide"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/Stack_Acry"
+            android:text="0"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow
+        android:background="@drawable/table_border_body">
+        <TextView
+            android:text="1.5M Tris pH 8.8"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/Stack_Tris_1"
+            android:text="0"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow
+        android:background="@drawable/table_border_body">
+        <TextView
+            android:text="0.5M Tris pH 6.8"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/Stack_Tris_2"
+            android:text="0"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+    
+    
+    <TableRow
+        android:background="@drawable/table_border_body">
+        <TextView
+            android:text="10% SDS"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/Stack_SDS"
+            android:text="0"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+    
+    <TableRow
+        android:background="@drawable/table_border_body">
+        <TextView
+            android:text="10% APS"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/Stack_APS"
+            android:text="0"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+    
+    <TableRow
+        android:background="@drawable/table_border_body">
+        <TextView
+            android:text="TEMED"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/Stack_TEMED"
+            android:text="0"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+    
+    <TableRow
+        android:background="@drawable/table_border_body">
+        <TextView
+            android:text="Total Volume"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/Stack_TV"
+            android:text="0"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>    
+    
+ </TableLayout>
+</ScrollView>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title">WBG Calculator</string>
+    <string name="app_name">Western Blot Gel Calculator</string>
+
+    <string name="NumGels">Number of Gels</string>
+    <string name="PercentGel">Gel %</string>
+    <string name="PercentAcry">Arcylamide %</string>
+    
+    <string name="PercentAcry_30">30</string>
+    <string name="PercentAcry_40">40</string>
+    
+    <string name="submit">Calculate</string>
+    <string name="clear">Clear</string>
+        
+    <string name="Value"></string>
+
+    <string name="Ingredients">Ingredients</string>
+    <string name="Gel">Separation Gel</string>    
+    
+    <string name="StackGel">Stacking Gel</string>
+               
+    <!-- Separation Gel Results -->
+    <string name = "SepG_ddH20"></string>
+    <string name = "SepG_Acry"></string>
+    <string name = "SepG_Tris_1"></string>
+    <string name = "SepG_Tris_2"></string>
+    <string name = "SepG_SDS"></string>
+    <string name = "SepG_APS"></string>
+    <string name = "SepG_TEMED"></string>
+    <string name = "SepG_TotalVolume"></string>
+        
+    <!-- Stacking Gel Results -->  
+    
+    <!-- Protocol Values -->
+    <string name = "Protocol_Title">Polyacrylamide Gel Electrophoresis Protocol</string> 
+       
+</resources>
