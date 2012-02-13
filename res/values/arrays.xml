@@ -6,30 +6,29 @@
 	 </string-array>
 	     
 	 <string-array name="before_protocol_array">
-         <item>1) Clean all glass plates, spacers and work surfaces with ethanol. </item>
-         <item>2) Assemble the plates and spacers into the stand provided by the manufacturer. </item>
-		 <item>3)	In a clean flask, pipette desired quantity of ddH2O as determined by the gel calculator</item>
-		 <item>4)	Add the Acrylamide, 1.5 M Tris pH 8.8 and 10% SDS</item>
-		 <item>5)	When ready to use, add TEMED and APS- pour immediately (the gel will begin to polymerize after the addition of APS)</item>   
-	     <item>6)	Pour the solution into the assembled glass plates to the desired height (typically to just below the level of the lane-comb, about 4/5 the way up the plates)</item>	         
-		 <item>7)	Overlay the solution with 1-2 ml of n-butanol to ensure a smooth gel surface, aiding straight and uniform protein band separation.</item>        
-	     <item>8)	The gel will take 30-45 mins to polymerize, any left over solution can be inspected to ensure full polymerization before proceeding</item>
-	     <item>9)	Gels can be stored for up to two weeks at 4°C, but must be wrapped in wet paper towels to avoid drying</item>
-	     <item>10)	Clean the lane- comb with ethanol</item>
-	     <item>11)	Pour off n-butanol from the gel and dab dry the area above the gel with filter paper</item>
-	     <item>12)	In a clean flask, pipette desired quantity of ddH2O as determined by the gel calculator</item>
-	     <item>13)	Add the Acrylamide, 0.5 M Tris pH 6.8 and 10% SDS</item>
-	     <item>14)	When ready to use, add TEMED and APS</item>
-	     <item>15)	Pour stacking gel on top of separating gel and add in lane-comb</item>
-	     <item>16)	The gel will take 20-30 mins to polymerize, any left over solution can be inspected to ensure full polymerization before proceeding</item>
+         <item>1) Clean all glass plates, spacers and work surfaces with ethanol.</item>
+         <item>2) Assemble the plates and spacers into the stand provided by the manufacturer.</item>
+		 <item>3) In a clean flask, pipette desired quantity of ddH2O as determined by the gel calculator.</item>
+		 <item>4) Add the Acrylamide, 1.5 M Tris pH 8.8 and 10% SDS.</item>
+		 <item>5) When ready to use, add TEMED and APS- pour immediately (the gel will begin to polymerize after the addition of APS).</item>   
+	     <item>6) Pour the solution into the assembled glass plates to the desired height (typically to just below the level of the lane-comb, about 4/5 the way up the plates).</item>	         
+		 <item>7) Overlay the solution with 1-2 ml of n-butanol to ensure a smooth gel surface, aiding straight and uniform protein band separation.</item>        
+	     <item>8) The gel will take 30-45 mins to polymerize, any left over solution can be inspected to ensure full polymerization before proceeding.</item>
+	     <item>9) Gels can be stored for up to two weeks at 4°C, but must be wrapped in wet paper towels to avoid drying.</item>
+	     <item>10) Clean the lane- comb with ethanol.</item>
+	     <item>11) Pour off n-butanol from the gel and dab dry the area above the gel with filter paper.</item>
+	     <item>12) In a clean flask, pipette desired quantity of ddH2O as determined by the gel calculator.</item>
+	     <item>13) Add the Acrylamide, 0.5 M Tris pH 6.8 and 10% SDS.</item>
+	     <item>14) When ready to use, add TEMED and APS.</item>
+	     <item>15) Pour stacking gel on top of separating gel and add in lane-comb.</item>
+	     <item>16) The gel will take 20-30 mins to polymerize, any left over solution can be inspected to ensure full polymerization before proceeding.</item>
     </string-array>
     
 	<string-array name="About_array">
-	     <item>1) Enter the number of gels that you want to generate </item>
-         <item>2) Enter the percentage for the gel </item>
-		 <item>3) This application has been build by www.jumpercake.com</item>
-		 <item>4) The formulae for generating the gels have been provided by Dr Nicholas Tobin, biologist in the Cancer Centre Karolinska, Stockhom</item>
-		
+		 <item>1) The idea for the application came from an international collaboration between Karl O’ Brien BSc, (IFSC, Dublin) and Dr. Nicholas Tobin (A biologist in the Cancer Centre Karolinska, Stockholm).</item>
+		 <item>2) The formulae for generating the gels were provided by Nicholas Tobin.</item>		
+		 <item>3) All coding was performed by Karl O’Brien.</item>
+		 <item>4) Editing and testing was performed by both collaborators.</item>
 	</string-array>
 	     
 </resources>

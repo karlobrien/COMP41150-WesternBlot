@@ -42,7 +42,7 @@ public class HomeActivity extends Activity{
 	    	    System.out.println("Could not parse " + nfe);
 	    	}  	 	
 	    	
-	    	if ((numGel > 0) & (percentGel > 0))
+	    	if ((numGel > 0) & (percentGel <= 22 && percentGel > 0))
 	    	{
 		    	Intent myIntent = new Intent(button.getContext(), ResultsTabLayoutActivity.class);
 				Bundle b = new Bundle();
@@ -64,6 +64,10 @@ public class HomeActivity extends Activity{
 	    	else if(percentGel == 0)
 	    	{
 	    		makeToast("Please input values for the percentage of gels required");
+	    	}
+	    	else if(percentGel > 22)
+	    	{
+	    		makeToast("22% is the maximum value for the percentage of gel");
 	    	}
 	          
 	    } 
